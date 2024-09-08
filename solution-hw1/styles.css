@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
+
+.logo {
+    width: 400px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-container img {
+    width: 400px;
+}
+
+.product-container img, .product-details img, .cart-product-container img {
+    border: solid black 4px;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    margin-bottom: 50px;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 20px;
+}
+
+nav span.active {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.product-container {
+    padding: 10px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.product-container:hover {
+    background-color: yellow;
+}
+
+.product-container .product-name {
+    text-decoration: underline;
+}
+
+.product-container:hover .product-name {
+    font-weight: bold;
+}
+
+p {
+    margin: 3px;
+}
+
+.customization {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.customization, .customization select, .product-subtext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+}
+
+.customization select {
+    border: solid black 2px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.product-details img {
+    width: 600px;
+    margin: 20px;
+}
+
+.price-add-to-cart {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1rem;
+    font-weight: bold;
+    font-size: 24px;
+    /* gap source: https://developer.mozilla.org/en-US/docs/Web/CSS/gap */
+}
+
+.product-detail-price {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-primary {
+    background-color: yellow;
+    padding: 6px 24px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.cart-product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.cart-product-container img {
+    width: 200px;
+}
+
+.remove-item {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.cart-price {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    background-color: #333;
+    /* source: https://stackoverflow.com/questions/4151743/how-can-i-change-the-thickness-of-my-hr-tag */
+}
+
+#total-divider{
+    width: 50%;
+}
