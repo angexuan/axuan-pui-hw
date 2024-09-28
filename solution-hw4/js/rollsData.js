@@ -72,7 +72,6 @@ class Roll {
 }
 
 function createNewRoll() {
-  console.log("added to cart");
   const glazingSelect = document.querySelector("#glazing");
   const sizeSelect = document.querySelector("#size");
 
