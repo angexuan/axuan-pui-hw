@@ -82,12 +82,7 @@ function createNewRoll() {
   );
   //   selectedIndex source: https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/selectedIndex
 
-  const newRoll = new Roll(
-    rollType,
-    rollGlazing,
-    packSize,
-    rolls[rollType].basePrice
-  );
+  const newRoll = new Roll(rollType, rollGlazing, packSize, basePrice);
 
   cart.push(newRoll);
   console.log(cart);
