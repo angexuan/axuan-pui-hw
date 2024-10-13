@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- <script defer src="js/rollsData.js"></script> -->
+    <script defer src="js/detail.js"></script>
+    <script defer src="js/cart.js"></script>
+  </head>
+  
+  <body>
+
+    <header>
+      <a href="index.html">
+        <img src="../assets/logo/logo-01.svg" alt="Bun Bun Bake Shop Logo" class="logo">
+      </a>
+
+      <div>
+        <nav>
+          <a href="index.html"><span>Products</span></a>
+          <a href="shopping-cart.html"><span class="active">Cart</span></a>
+        </nav>
+
+        <hr>
+
+        <h1>Our hand-made cinnamon rolls</h1>
+      </div>
+    </header>
+
+    <main>
+      <div class="cart-contents">
+        <template id="roll-template">
+          <article class="roll">
+            <div class="cart-product-container">
+              <div class="cart-img-details-price">
+                <img src="../assets/products/original-cinnamon-roll.jpg" alt="Original cinnamon roll" class="product-image">
+                <div class="cart-details">
+                  <h2 class="product-name"><span class="product-type"></span> Cinnamon Roll</h2>
+                  <p>Glazing: <span class="product-glazing"></span></p>
+                  <p>Pack Size: <span class="product-size"></span></p>
+                </div>
+                <div class="cart-price">
+                  <p>$<span class="product-price"></span></p>
+                </div>
+              </div>
+              <button class="remove-item">Remove</button> 
+            </div>
+          </article>
+        </template>
+        
+      </div>
+     
+      
+      <div class="cart-total-checkout-divider">
+        <hr>
+        <div class="cart-total-checkout">
+          <p class="cart-total">Total</p>
+          <div>
+            <p class="cart-price">$29.94</p>
+            <button class="btn-primary">Checkout</button>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+
+  </body>
+</html>
