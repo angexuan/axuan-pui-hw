@@ -190,8 +190,6 @@ I want to create a digital preservation of family recipes from Shanghai to make 
 
 My goal is to create a customizable financial tracking system that combines spending tracking and categorization, credit card reward optimization, and yearly/monthly overviews in one dashboard. It will be interactive through dynamic spending visualizations, real-time category spending bars, and adding new transactions. I’ll make sure my data tables are accessible, the charts are color-blind friendly, and that there are consistent navigation patterns.
 
-…
-
 ## Feedback Summary
 
 Summarize all the critiques you received during the lab session (\~300 words). 
