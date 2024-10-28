@@ -192,9 +192,20 @@ My goal is to create a customizable financial tracking system that combines spen
 
 ## Feedback Summary
 
-Summarize all the critiques you received during the lab session (\~300 words). 
+In today’s lab critique session for FP1, I received many helpful pieces of feedback from my peers. I focused on getting feedback on my ideas of a Shanghai family recipe catalog and a personal finance tracker because those are the ideas I was the most excited about.
+
+My Shanghai family recipe catalog received the most extensive feedback. Technical recommendations I received include implementing a filtering system that allows users to select more than one filter option at a time, and considering various ways to display measurement formats to accommodate the imprecise nature of family recipes. Design suggestions included emphasizing the homey, personal feel of family recipes through hand-drawn elements. Ideas for more interactivity included incorporating 3D icons with hover animations and process photos demonstrating important visual cues in cooking like the color and consistency of the food. A unique suggestion I received involved incorporating audio recording of family members to capture the word-of-mouth aspect of recipe sharing amongst my family. 
+
+For my personal finance tracker concept, someone suggested that I make sure it is accessible through mobile so that I can log transactions on the go. Additionally, I was told that Vega-Lite would be better suited for my purposes as opposed to D3, because Vega-Lite is built upon D3. I could also consider using SQL for backend data management. Lastly, someone told me to make sure that I’m considering all of the use cases I want for my personal experience, so that I don’t run into any functionality blockers as I’m using it.
+
+My third idea was for a personal portfolio, but my TA suggested that there are other platforms out there for portfolio building that would make this easier, so I have decided against the idea. The key piece of feedback I got for this idea was to avoid generic approaches and make sure my individual character shows through. Additionally, it would be important for me to consider mobile-friendly functionality because recruiters and hiring managers may be looking at my portfolio on their phones.
 
 ## Feedback Digestion
 
-Digest the feedback you got in the lab (\~300 words). Indicate which critique you will act on in your next design and why you chose to incorporate/dismiss pieces of critique.
+I’ll focus on my ideas of a Shanghai family recipe catalog and a personal finance tracker because I've narrowed down my ideas to those two.
 
+In general, I received feedback to think about what I would gain from adding each of these projects to my portfolio. Someone got me thinking about how these are going to benefit me as a product designer, and what I want to convey to future employers. I think the Shanghai family recipes catalog would show more of my visual design skills, whereas the personal finance tracker would show more of my programming and data visualization skills. This piece of feedback will be critical in my selection.
+
+In regards to my recipe catalog idea, I would incorporate the feedback to select just a few recipes to start with first, instead of trying to incorporate all of my ideas. This is because one of my main concerns was that I wouldn’t be able to achieve the visual design I wanted with the time constraints I have, so I think this is good advice. Another suggestion I would incorporate is to make the website feel homey using hand drawn illustrations and a well thought-out color scheme. Someone suggested that I should have 3D thumbnails for each dish, but I will deprioritize this as it could detract from the core functionality and extend development time significantly. An idea that I’ll consider based on feasibility with my family members’ time is to record their audio to incorporate into the recipes. I would record them in Chinese and then transcribe them and translate them to English.
+
+For my personal finance tracker, I’ll incorporate the idea of using Vega-lite instead of D3 because it is better suited for my purposes. Additionally, I don’t think it’s completely necessary for me to have a complete SQL backend – for the initial version, a simpler data management system might be more appropriate. I will also consider scaling some of the widgets down to make sure I have enough time to complete the assignment.
