@@ -141,11 +141,7 @@ This is the landing page for Eat Shanghai, which is the users' first impressions
 
 This is the Pork Wontons Recipe Page, which shows images, ingredients, and instructions for the dish. The rest of the recipe pages will follow a similar format. My evaluators suggested both content and visual refinements for this page. One evaluator mentioned that the placement of the opening copy feels awkward. They also mentioned how the main image shouldn't cut off content. Additionally, they said the page lacks visual interest and suggested adding process photos and incorporating the hand-drawn illustration style from the homepage. Overall, the page needs more elements to maintain consistency with the homepage's design language.
 
-…
-
 ## Usability Test
-
-Discuss the user feedback you got during the evaluation / usability test (\~300 words). Indicate which feedback you implemented, inspired new directions, or otherwise influenced your final design. 
 
 For the usability testing that I conducted, I had two evaluators use the think aloud protocol to give me feedback on my designs. I had each of my evaluators complete three tasks during their respective tests.
 
@@ -171,16 +167,12 @@ Wontons recipe page updated with custom image cropping, hand drawn visuals, proc
 
 ## Feedback Summary
 
-Summarize the feedback you received in the lab session and discuss how it influenced your design (\~300 words). 
-
 During lab today, I received more helpful feedback, and the following are the most helpful pieces of feedback that I will implement in my final designs. In terms of visual design and navigation, someone mentioned that the overall look and feel of the site authentically reflects my own style. They recommended that I should consider showing partial recipe content ("peek through") to indicate scrollable content. On the recipes page, someone said to explore different image shapes in the process images to maintain some visual interest, and to add in some hand drawn icons throughout the instructions as well. A key piece of feedback I got was to consider how people think while cooking and structure my content accordingly. For example, in terms of the recipe page layout and functionality, someone suggested that I should make the ingredients section sticky during scrolling so that people can easily reference the list when they are scrolling through the instructions. They also mentioned that I could make a better use of the white space under the ingredients section, and to improve readability by increasing the spacing between each process step in the instructions. I could also consider breaking down the steps into main steps with substeps, and use bold text for important phrases. This could help users with their ability to scan the instructions quickly.
 
 In terms of technical recommendations, I was told to use WEBP format images for better web performance and accessibility. For heading hierarchy, I can use the text "Recipes by the Xuans" for my H1 text to make sure that it is accessible. I could also consider using overlapping rows using relative/absolute positioning, and using D3 for animations to achieve the visual designs I'm going for.
 In general, I was advised to focus on the basic functionality of my site before adding too many animations so that I can stay on track with timing.
 
 ## Milestones
-
-Outline weekly milestones to plan your expected implementation progress until the end of the semester (\~300 words). 
 
 ### *Implementation Plan*
 
@@ -216,8 +208,6 @@ List the JS libraries and other components (if applicable) that you plan to use.
 
 
 ## Generative AI Use Plan
-
-Outline how you plan to use Generative AI tools to aid in the implementation (\~300 words).
 
 I plan to leverage a different Generative AI tools strategically while maintaining the very personal nature of my project. 
 
