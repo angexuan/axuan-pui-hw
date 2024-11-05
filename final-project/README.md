@@ -131,13 +131,13 @@ I’m creating Eat Shanghai, a digital preservation of my family recipes from Sh
 
 ### *Prototype 1: Home Page*
 
-![Home Page](images/prototype1.png)
+![Home Page](img/home.png)
 
 This is the landing page for Eat Shanghai, which is the users' first impressions of the site and their access point for all of the different recipes available on the site. My evaluators gave me a few key recommendations, including adding a header to the recipe section, adding a footer to the site overall, and incorporating more interactive elements (like animated chopsticks and sparkling effects). They also wanted more obvious signaling for clickable areas and recommended that I achieve this through adding labels to each dish.
 
 ### *Prototype 2*
 
-![Wontons Recipe Page](images/prototype1.png)
+![Wontons Recipe Page](img/wontons.png)
 
 This is the Pork Wontons Recipe Page, which shows images, ingredients, and instructions for the dish. The rest of the recipe pages will follow a similar format. My evaluators suggested both content and visual refinements for this page. One evaluator mentioned that the placement of the opening copy feels awkward. They also mentioned how the main image shouldn't cut off content. Additionally, they said the page lacks visual interest and suggested adding process photos and incorporating the hand-drawn illustration style from the homepage. Overall, the page needs more elements to maintain consistency with the homepage's design language.
 
@@ -157,11 +157,11 @@ In the actual implementation of the site, I will add audio guidance for the proc
 
 ## Updated Designs
 
-![Home Page](images/prototype1.png)
+![Home Page](img/home_updated.png)
 
 Homepage updated with labels for each dish and a footer.
 
-![Wontons Recipe Page](images/prototype1.png)
+![Wontons Recipe Page](img/wontons_updated.png)
 
 Wontons recipe page updated with custom image cropping, hand drawn visuals, process images, and an ingredients serving size adjuster.
 
