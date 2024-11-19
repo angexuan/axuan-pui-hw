@@ -111,11 +111,35 @@ Document the changes and progress of your project. How have you followed or chan
 
 ## Implementation Plan Updates
 
-- [ ] ...
+- [x]  Week 9 Oct 28 - Nov 1:
+    - [x]  FP1 due
+- [x]  Week 10 Nov 4 - Nov 8:
+    - [x]  FP2 due
+    - [x]  Create hi-fi prototypes for the other 4 recipe pages, and for mobile
+    - [x]  Complete basic HTML/CSS for home page, with a format that can be achieved with CSS flex boxes
+        - [x]  Consider breakpoints and responsiveness for mobile
+    - [x]  Familiarize with jQuery
+- [x]  Week 11 Nov 11 - Nov 15:
+    - [x]  Implement first recipe page (wontons)
+        - [ ]  Consider breakpoints and responsiveness for mobile
+    - [ ]  Implement sticky ingredients feature
+- [ ]  Week 12 Nov 18 - Nov 22:
+    - [ ]  Complete 2 more recipe pages
+- [ ]  Week 13 Nov 25 - Nov 29:
+    - [ ]  Complete final 2 recipe pages
+    - [ ]  Add visual elements to homepage: Chopsticks animations, sparkle effects
+    - [ ]  Thanksgiving
+- [ ]  Week 14 Dec 2 - Dec 6:
+    - [ ]  FP4 due
+    - [ ]  Continue polishing homepage
+    - [ ]  Gen AI documentation
+    - [ ]  Final polish and submission
+
+I have followed my implementation plan by creating hi-fi prototypes, completing basic HTML/CSS, and considering responsiveness for mobile for the homepage. In terms of what library I'll be using, I've decided to pivot away from using GSAP to animate, and instead, I'll be using jQuery to write all of my JS. To follow the rest of my plan, I'll work on responsiveness for mobile for the recipe pages, and proceed with the rest of the plan.
 
 ## Generative AI Use Plan Updates
 
-- [ ] ...
+I have not yet used Generative AI in my project.
 
 Remember to keep track of your prompts and usage for [FP4 writeup](#part-6-generative-ai-use-and-reflection).
 
