@@ -135,7 +135,7 @@ Document the changes and progress of your project. How have you followed or chan
     - [ ]  Gen AI documentation
     - [ ]  Final polish and submission
 
-I have followed my implementation plan by creating hi-fi prototypes, completing basic HTML/CSS, and considering responsiveness for mobile for the homepage. In terms of what library I'll be using, I've decided to pivot away from using GSAP to animate, and instead, I'll be using jQuery to write all of my JS. To follow the rest of my plan, I'll work on responsiveness for mobile for the recipe pages, and proceed with the rest of the plan.
+I have followed my implementation plan by creating hi-fi prototypes, completing basic HTML/CSS, and considering responsiveness for mobile for the homepage. In terms of what library I'll be using, I've decided to pivot away from using GSAP to animate, and instead, I'll be using jQuery to write all of my JS. To follow the rest of my plan, I'll work on responsiveness for mobile for the recipe pages and the sticky ingredients feature, and proceed with the rest of the plan.
 
 ## Generative AI Use Plan Updates
 
