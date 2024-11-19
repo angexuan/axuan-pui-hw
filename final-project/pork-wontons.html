@@ -5,6 +5,9 @@
     <title>Pork Wontons</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/recipe-page.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script defer src="js/ingredients.js"></script>
   </head>
   
   <body>
@@ -25,23 +28,48 @@
       <div class="ingredients-instructions"> 
         <div class="ingredients">
           <h2>Ingredients</h2>
-          <div class="ingredients-toggle">
-            <div>1x</div>
-            <div>2x</div>
-            <div>3x</div>
+          <div class="multiplier-buttons">
+            <button class="multiply active" data-multiply="1">1x</button>
+            <button class="multiply" data-multiply="2">2x</button>
+            <button class="multiply" data-multiply="3">3x</button>
           </div>
-          <h3>6 Servings</h3>
+          <div class="ingredient">
+            <h3><span class="amount" data-base="6">6</span> Servings</h3>
+          </div>
+          <h2>Ingredients</h2>
           <div class="ingredients-content">
-            <ul>
-              <li><input type="checkbox"> 1 lb Ground pork</li>
-              <li><input type="checkbox"> 5 stalks Green onion</li>
-              <li><input type="checkbox"> 2 tbsp Soy sauce</li>
-              <li><input type="checkbox"> 1 tbsp Sesame oil</li>
-              <li><input type="checkbox"> 1 knob Ginger, minced</li>
-              <li><input type="checkbox"> 2 tbsp Cooking Wine</li>
-              <li><input type="checkbox"> 1/8 tbps Salt</li>
-              <li><input type="checkbox"> 72 Wonton Wrappers</li>
-            </ul>         
+            <div class="ingredient">
+              <span><span class="amount" data-base="1">1</span> lb</span>
+              <span class="name">Ground pork</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="5">5</span> stalks</span>
+              <span class="name">Green onion</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="2">2</span> tbsp</span>
+              <span class="name">Soy sauce</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="1">1</span> tbsp</span>
+              <span class="name">Sesame oil</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="1">1</span> knob</span>
+              <span class="name">Ginger, minced</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="2">2</span> tbsp</span>
+              <span class="name">Cooking wine</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="0.25">0.25</span> tbsp</span>
+              <span class="name">Salt</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="72">72</span></span>
+              <span class="name">Wonton wrappers</span>
+            </div>
           </div>
         </div>
         <div class="instructions">
@@ -61,5 +89,6 @@
         </div>
       </div>
     </main>
+
   </body>
 </html>

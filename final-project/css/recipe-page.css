@@ -20,21 +20,29 @@ main img {
     width: 70%;
 }
 
-.ingredients-toggle {
-    display: flex;
-    flex-direction: row;
-}
-
-.ingredients-toggle div{
-    line-height: 30px;
-    text-align: center;
-    height: 30px;
-    width: 30px;
-    border: 2px solid #CA3933;
-}
-
 .ingredients-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
+button {
+    padding: 4px 8px;
+    cursor: pointer;
+    color: #CA3933;
+    border: 2px solid #CA3933;
+    background-color: #F7F2DF;
+    border-radius: 4px;
+    font-family:'Hiragino Kaku Gothic Pro', Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+button.active {
+    color: #fff;
+    background-color: #CA3933;
+}
+
+@media only screen and (max-width: 860px) {
+    .ingredients-instructions {
+        flex-direction: column;
+    }
+}
