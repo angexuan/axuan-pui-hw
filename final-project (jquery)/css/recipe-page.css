@@ -1,0 +1,40 @@
+h1 {
+    text-align: left;
+}
+
+h2 {
+    font-weight: 800;
+}
+
+.ingredients-instructions {
+    display: flex;
+    flex-direction: row;
+}
+
+main img {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.ingredients {
+    width: 70%;
+}
+
+.ingredients-toggle {
+    display: flex;
+    flex-direction: row;
+}
+
+.ingredients-toggle div{
+    line-height: 30px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    border: 2px solid #CA3933;
+}
+
+.ingredients-content {
+    display: flex;
+    flex-direction: row;
+}
+
