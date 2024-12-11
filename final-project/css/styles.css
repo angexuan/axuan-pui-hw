@@ -175,6 +175,37 @@ article:hover h2::after {
     justify-content: flex-start;
 }
 
+small {
+    display: flex;
+    justify-content: end;
+    transition: opacity 0.3s ease;
+}
+
+small:hover {
+    opacity: 0.7;
+}
+
+small a {
+    color: #CA3933;
+    text-decoration: none;
+    position: relative;
+}
+
+small a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-color: #CA3933;
+    transition: width 0.3s ease;
+}
+
+small a:hover::after {
+    width: 100%;
+}
+
 footer {
     text-align: center;
     padding-top: 40px;
