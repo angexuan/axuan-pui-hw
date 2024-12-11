@@ -5,8 +5,12 @@
     <title>Pork Wontons</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/recipe-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script> 
     <script defer src="js/ingredients.js"></script>
   </head>
   
@@ -23,11 +27,17 @@
 
     <main>
       <img src="images/pork-wontons-hero.png" alt="A grandfather and his granddaughter wrapping wontons">
-      <h1>Pork Wontons</h1>
+      <h1 class="instrument-serif-regular">Pork Wontons</h1>
       <p>Whether it's the new year or just the weekend, sit down with your family and wrap some wontons. Easily store them in the freezer and satisfy your wonton cravings any time.</p>
+      <div class="recording-section">
+        <p class="audio-label">Audio recording coming soon...</p>
+        <div class="audio-placeholder">
+          <p>🎙️ My mom will share this recipe soon!</p>
+        </div>
+      </div>
       <div class="ingredients-instructions"> 
         <div class="ingredients">
-          <h2>Ingredients</h2>
+          <h2 class="instrument-serif-regular-italic">Ingredients</h2>
           <div class="multiplier-buttons">
             <button class="multiply active" data-multiply="1">1x</button>
             <button class="multiply" data-multiply="2">2x</button>
@@ -36,7 +46,6 @@
           <div class="ingredient">
             <h3><span class="amount" data-base="6">6</span> Servings</h3>
           </div>
-          <h2>Ingredients</h2>
           <div class="ingredients-content">
             <div class="ingredient">
               <span><span class="amount" data-base="1">1</span> lb</span>
@@ -73,7 +82,7 @@
           </div>
         </div>
         <div class="instructions">
-          <h2>Instructions</h2>
+          <h2 class="instrument-serif-regular-italic">Instructions</h2>
           <ol>
             <li>Add the ground pork, ginger, green onion, salt, sesame oil, cooking wine, and soy sauce to a large bowl. Mix until the ingredients are combined.</li>
             <li>Place 1 teaspoon of the meat mixture in the middle of a wrapper.</li>
@@ -86,9 +95,13 @@
             <li>Take them out gently with a strainer and serve them hot with a drizzle of soy sauce.</li>
             <li>Repeat the cooking process with the rest of the wontons until they're all cooked.</li>
           </ol>
+          <small>Recipe via: &nbsp;<a target="_blank" href="https://therecipecritic.com/pork-wontons/">https://therecipecritic.com/pork-wontons/</a></small>
         </div>
       </div>
     </main>
 
+    <footer>
+      <p>Made with ❤️ in Pittsburgh | Angela Xuan</p>
+    </footer>
   </body>
 </html>

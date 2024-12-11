@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Egg Rolls</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/recipe-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script defer src="js/ingredients.js"></script>
+  </head>
+  
+  <body>
+    <nav class="nav">
+        <div class="nav-left">
+          <a href="index.html">Eat Shanghai</a>
+        </div>
+        <div class="nav-right">
+          <a href="index.html">Recipes</a>
+          <a href="about.html">About</a>
+        </div>
+      </nav> 
+
+    <main>
+      <div class="recipe-header">
+        <img src="images/egg-rolls-hero.png" alt="A man standing over the stove frying egg rolls." class="recipe-hero-image">
+        <div class="recipe-header-content">
+          <h1 class="instrument-serif-regular">Egg Rolls</h1>
+          <p>Shatteringly crisp egg roll wrappers filled with juicy marinated pork, tender napa cabbage, and earthy shiitake mushrooms.</p>
+          <div class="audio-container">
+            <p class="audio-label">Listen to my mom share this recipe:</p>
+            <audio controls>
+              <source src="audio/egg-rolls-audio.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="ingredients-instructions"> 
+        <div class="ingredients">
+          <h2 class="instrument-serif-regular-italic">Ingredients</h2>
+          <div class="multiplier-buttons">
+            <button class="multiply active" data-multiply="1">1x</button>
+            <button class="multiply" data-multiply="2">2x</button>
+            <button class="multiply" data-multiply="3">3x</button>
+          </div>
+          <div class="ingredient">
+            <h3><span class="amount" data-base="24">24</span> Servings</h3>
+          </div>
+          <div class="ingredients-content">
+            <h3>For the pork and marinade:</h3>
+            <div class="ingredient">
+              <span><span class="amount" data-base="0.67">0.67</span> cup</span>
+              <span class="name">Finely shredded lean pork</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="0.25">0.25</span> tsp</span>
+              <span class="name">Salt</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="0.5">0.5</span> tsp</span>
+              <span class="name">Sesame oil</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="1">1</span> tsp</span>
+              <span class="name">Shaoxing wine</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="0.5">0.5</span> tsp</span>
+              <span class="name">Cornstarch</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="0.25">0.25</span> tsp</span>
+              <span class="name">White pepper</span>
+            </div>
+        
+            <h3>To assemble the filling:</h3>
+            <div class="ingredient">
+              <span><span class="amount" data-base="1">1</span> small</span>
+              <span class="name">Napa cabbage, finely shredded</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="8">8</span></span>
+              <span class="name">Dried shiitake mushrooms, soaked and thinly sliced</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="4">4</span> tbsp</span>
+              <span class="name">Oil</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="1">1</span> to taste</span>
+              <span class="name">Salt</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="1">1</span> to taste</span>
+              <span class="name">White pepper</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="2">2</span> tbsp</span>
+              <span class="name">Shaoxing wine</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="0.5">0.5</span> tbsp</span>
+              <span class="name">Soy sauce</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="1.5">1.5</span> tbsp</span>
+              <span class="name">Cornstarch</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="2">2</span> tsp</span>
+              <span class="name">Sesame oil</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="24">24</span></span>
+              <span class="name">Spring roll wrappers</span>
+            </div>
+            <div class="ingredient">
+              <span class="name">Oil for frying</span>
+            </div>
+          </div>
+        </div>
+        <div class="instructions">
+          <h2 class="instrument-serif-regular-italic">Instructions</h2>
+          <ol>
+            <li>Mix the pork with the marinade ingredients and let sit for 20-30 minutes. Shred the cabbage and slice your mushrooms.</li>
+            </li>
+            <li>Over medium heat, add 4 tablespoons of oil to your wok. Brown the pork. Then add the mushrooms and cook for another couple of minutes until fragrant. Add the napa cabbage and stir well. Season with salt, white pepper, shaoxing wine, and soy sauce. Stir everything together, cover the lid and let it cook over high heat for 2 - 3 minutes, or until the cabbage is wilted.
+            </li>
+            <li>Uncover the lid and add the cornstarch slurry. Stir. The mixture will start to thicken. You don’t want there to be extra liquid in the mixture, so add more of the cornstarch/water mixture if need be. Lastly, add sesame oil and stir everything thoroughly. Turn off the heat and let the mixture cool completely.
+            </li>
+            <li>The key to wrapping spring rolls is making sure that they’re really tight and not overstuffed. Place the wrapper in front of you so that a corner is facing toward you. Use about one and a half tablespoons of the mixture per spring roll, spoon it about an inch and a half from the corner closest to you. Roll it over once, and like you’re making a burrito, fold over both sides. Continue rolling it into a cigar shape. With your fingers, brush a bit of water to the closing corner of the wrap to seal it. Place each roll on a tray seam-side down. This recipe makes about 25 spring rolls (you can also prepare them ahead of time and freeze them).
+            </li>
+            <li>To fry the spring rolls, use a small pot or shallow pan (which requires less oil) and fill it with oil until it’s about 1-inch deep, just enough to submerge the spring rolls when frying. Heat oil slowly over medium heat. To tell if the oil is ready, I just dip a bamboo chopstick into the hot oil, and if some bubbles form around the chopstick, then the oil is ready. Slowly add the spring rolls one at a time, and fry them in small batches. Cook each side until golden brown and drain on a paper towel. We like to serve them with some Chinese black vinegar for dipping!
+            </li>
+          </ol>
+          <small>Recipe via: &nbsp;<a target="_blank" href="https://thewoksoflife.com/shanghai-style-spring-rolls/">https://thewoksoflife.com/shanghai-style-spring-rolls/</a></small>
+
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Made with ❤️ in Pittsburgh | Angela Xuan</p>
+    </footer>
+  </body>
+</html>

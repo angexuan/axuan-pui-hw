@@ -44,3 +44,31 @@ $(document).ready(function () {
     }
   );
 });
+
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.utils.toArray("article").forEach((article) => {
+  gsap.from(article, {
+    opacity: 0,
+    y: 50,
+    duration: 1,
+    scrollTrigger: {
+      trigger: article,
+      start: "top bottom-=100",
+      toggleActions: "play none none reverse",
+    },
+  });
+});
+
+gsap.from(".hero-image", {
+  opacity: 0,
+  duration: 1.5,
+  y: 30,
+});
+
+gsap.from("h1", {
+  opacity: 0,
+  duration: 1.5,
+  y: 30,
+  delay: 0.3,
+});

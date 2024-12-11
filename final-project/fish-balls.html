@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fish Balls</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/recipe-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script defer src="js/ingredients.js"></script>
+  </head>
+  
+  <body>
+    <nav class="nav">
+        <div class="nav-left">
+          <a href="index.html">Eat Shanghai</a>
+        </div>
+        <div class="nav-right">
+          <a href="index.html">Recipes</a>
+          <a href="about.html">About</a>
+        </div>
+      </nav> 
+
+    <main>
+      <div class="recipe-header">
+        <img src="images/fish-balls-hero.png" alt="A man standing over the stove boiling fish balls." class="recipe-hero-image">
+        <div class="recipe-header-content">
+          <h1 class="instrument-serif-regular">Fish Balls</h1>
+          <p>Springy, hand-beaten fish balls made with fresh white fish - a bouncy texture that can only come from traditional techniques.</p>
+          <div class="recording-section">
+            <p class="audio-label">Audio recording coming soon...</p>
+            <div class="audio-placeholder">
+              <p>🎙️ My mom will share this recipe soon!</p>
+            </div>
+           </div>
+        </div>
+      </div>
+
+      <div class="ingredients-instructions"> 
+        <div class="ingredients">
+          <h2 class="instrument-serif-regular-italic">Ingredients</h2>
+          <div class="multiplier-buttons">
+            <button class="multiply active" data-multiply="1">1x</button>
+            <button class="multiply" data-multiply="2">2x</button>
+            <button class="multiply" data-multiply="3">3x</button>
+          </div>
+          <div class="ingredient">
+            <h3><span class="amount" data-base="4">4</span> Servings</h3>
+          </div>
+          <div class="ingredients-content">
+            <div class="ingredient">
+              <span><span class="amount" data-base="500">500</span> g</span>
+              <span class="name">White fish</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="1">1</span> tsp</span>
+              <span class="name">Salt</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="0.5">0.5</span> tsp</span>
+              <span class="name">Ground white pepper</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="0.5">0.5</span> cup</span>
+              <span class="name">Water</span>
+            </div>
+          </div>
+        </div>
+        <div class="instructions">
+          <h2 class="instrument-serif-regular-italic">Instructions</h2>
+          <ol>
+            <li>
+              Mince the fish in a chopper.
+            </li>
+            <li>
+              Place all the ingredients in a food processor, if you have one, and mix on low for 2 minutes. Then increase the speed to medium and continue mixing for a good 3 minutes until you have a sloppy, gloopy mix.
+              Alternatively, place all the ingredients into a bowl, and mix thoroughly with your hands. Then, pick the whole mixture up and throw it down onto the counter (or chopping board) from about a foot up. Do this about 60 times, by which time the fish paste will have achieved that springy consistency synonymous with fishballs.
+            </li>
+            <li>
+              Have a large bowl of iced water to drop the fishballs into. And a smaller bowl of cold water to dip your hands into periodically, to stop the paste from sticking too much to your hands.
+            </li>
+            <li>
+              Form little balls with the paste, either with the traditional method (see video on how to roll Chinese meatballs, below) or the usual way by rolling them between your hands. Drop the balls into the large bowl until you're ready to cook them.
+            </li>
+          </ol>
+          <small>Recipe via: &nbsp;<a target="_blank" href="https://www.linsfood.com/chinese-fishballs/">https://www.linsfood.com/chinese-fishballs/</a></small>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Made with ❤️ in Pittsburgh | Angela Xuan</p>
+    </footer>
+  </body>
+</html>

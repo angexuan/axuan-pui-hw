@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Egg Dumplings</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/recipe-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script defer src="js/ingredients.js"></script>
+  </head>
+  
+  <body>
+    <nav class="nav">
+        <div class="nav-left">
+          <a href="index.html">Eat Shanghai</a>
+        </div>
+        <div class="nav-right">
+          <a href="index.html">Recipes</a>
+          <a href="about.html">About</a>
+        </div>
+      </nav> 
+
+    <main>
+      <div class="recipe-header">
+        <img src="images/egg-dumplings-hero.png" alt="A grandfather and his granddaughter wrapping wontons" class="recipe-hero-image">
+        <div class="recipe-header-content">
+          <h1 class="instrument-serif-regular">Egg Dumplings</h1>
+          <p>A clever twist on traditional dumplings - delicate egg wrappers encase a savory filling of pork or chicken seasoned with ginger and scallions.</p>
+          <div class="audio-container">
+            <p class="audio-label">Listen to my mom share this recipe:</p>
+            <audio controls>
+              <source src="audio/egg-dumplings-audio.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      
+      <div class="ingredients-instructions"> 
+        <div class="ingredients">
+          <h2 class="instrument-serif-regular-italic">Ingredients</h2>
+          <div class="multiplier-buttons">
+            <button class="multiply active" data-multiply="1">1x</button>
+            <button class="multiply" data-multiply="2">2x</button>
+            <button class="multiply" data-multiply="3">3x</button>
+          </div>
+          <div class="ingredient">
+            <h3><span class="amount" data-base="12">12</span> Servings</h3>
+          </div>
+          <div class="ingredients-content">
+            <div class="ingredient">
+              <span><span class="amount" data-base="5">5</span></span>
+              <span class="name">Large eggs</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="8">8</span> oz</span>
+              <span class="name">Ground pork (or chicken)</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="2">2</span> tbsp</span>
+              <span class="name">Shaoxing wine</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="2">2</span> tbsp</span>
+              <span class="name">Light soy sauce</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="0.5">0.5</span> tsp</span>
+              <span class="name">Sesame oil</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="0.25">0.25</span> tsp</span>
+              <span class="name">Ground white pepper</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="2">2</span> tbsp</span>
+              <span class="name">Water</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="2">2</span> tbsp</span>
+              <span class="name">Scallion, minced</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="1">1</span> tsp</span>
+              <span class="name">Ginger, minced</span>
+            </div>
+            
+            <h3>Equipment needed:</h3>
+            <div class="ingredient">
+              1 Large round stainless steel soup ladle
+            </div>
+            <div class="ingredient">
+              1 Vegetable oil and pastry brush
+            </div>
+          </div>
+        </div>
+        <div class="instructions">
+          <h2 class="instrument-serif-regular-italic">Instructions</h2>
+          <ol>
+            <li>
+              In a large bowl, beat 5 eggs for a good 2 minutes. Set aside next to the stove.
+            </li>
+            <li>
+              In a separate bowl, mix the ground meat with the Shaoxing wine, light soy sauce, sesame oil, ground white pepper, water, minced scallion, and minced ginger. Whip everything in one direction for at least 3 minutes, until the filling is well combined and starts to take on a sticky texture. Set aside along with the egg.
+            </li>
+            <li>
+              Pour a small amount of oil in a bowl, and grab a pastry brush. Set it alongside the egg and meat filling so everything is easily within reach.
+            </li>
+            <li>
+              Now, turn your stove on to medium heat. Hold the ladle over the open flame (if you have an electric stove, it will be tricky to maintain even heat), and with the help of a pair of chopsticks, rub the ginger inside the ladle all over using quick motions for a good two minutes or so. This step treats the ladle, so the egg will not stick to it. I'm not sure why it works, but it does! If the egg still sticks to the ladle, repeat this process one more time.
+            </li>
+            <li>
+              Once the ladle has been treated, brush the inside with some oil, pouring any excess oil back into the bowl. Add 1 tablespoon of the egg mixture, and immediately turn the ladle in a circular motion to spread the egg mixture into a circle about 3 inches in diameter. Add 1 teaspoon of the meat filling on one side of the circle, and use the chopsticks to ease the other half of the circle off of the ladle, folding it over to create a half moon shape. Gently tap the edges closed so the inner raw egg seals the dumpling shut. That's one! Repeat until you've used up all your egg and meat filling. This recipe makes 3 dozen egg dumplings.
+            </li>
+          </ol>
+          <small>Recipe via: &nbsp;<a target="_blank" href="https://thewoksoflife.com/egg-dumplings/">https://thewoksoflife.com/egg-dumplings/</a></small>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Made with ❤️ in Pittsburgh | Angela Xuan</p>
+    </footer>
+  </body>
+</html>

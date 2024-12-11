@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Sweet and Sour Pork</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/recipe-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script defer src="js/ingredients.js"></script>
+  </head>
+  
+  <body>
+    <nav class="nav">
+      <div class="nav-left">
+        <a href="index.html">Eat Shanghai</a>
+      </div>
+      <div class="nav-right">
+        <a href="index.html">Recipes</a>
+        <a href="about.html">About</a>
+      </div>
+    </nav> 
+
+    <main>
+      <div class="recipe-header">
+        <img src="images/sweet-sour-pork-hero.png" alt="A plate of sweet and sour pork." class="recipe-hero-image" id="sweet-sour-pork-hero">
+        <div class="recipe-header-content">
+          <h1 class="instrument-serif-regular">Sweet and Sour Pork</h1>
+          <p>Tender pork ribs glazed in a sticky-sweet sauce made with dark soy sauce and Chinese black vinegar - a Shanghai favorite.</p>
+          <div class="audio-container">
+            <p class="audio-label">Listen to my mom share this recipe:</p>
+            <audio controls>
+              <source src="audio/sweet-sour-pork-audio.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="ingredients-instructions"> 
+        <div class="ingredients">
+          <h2 class="instrument-serif-regular-italic">Ingredients</h2>
+          <div class="multiplier-buttons">
+            <button class="multiply active" data-multiply="1">1x</button>
+            <button class="multiply" data-multiply="2">2x</button>
+            <button class="multiply" data-multiply="3">3x</button>
+          </div>
+          <div class="ingredient">
+            <h3><span class="amount" data-base="6">6</span> Servings</h3>
+          </div>
+          <div class="ingredients-content">
+            <div class="ingredient">
+              <span><span class="amount" data-base="2">2</span> pounds</span>
+              <span class="name">Pork ribs</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="1">1</span> tbsp</span>
+              <span class="name">Light soy sauce</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="2">2</span> tbsp</span>
+              <span class="name">Shaoxing wine (divided)</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="3">3</span> tbsp</span>
+              <span class="name">Oil (divided)</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="8">8</span> slices</span>
+              <span class="name">Ginger, thin slices</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="4">4</span></span>
+              <span class="name">Scallions (white parts only, chopped)</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="2">2</span> tbsp</span>
+              <span class="name">Sugar (rock sugar preferred)</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="2">2</span> tsp</span>
+              <span class="name">Dark soy sauce</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="1">1</span> tbsp</span>
+              <span class="name">Chinese black vinegar</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="2">2</span> cups</span>
+              <span class="name">Water</span>
+            </div>
+            <div class="ingredient">
+              <span><span class="amount" data-base="1">1</span> to taste</span>
+              <span class="name">Toasted sesame seeds (optional)</span>
+            </div>
+          </div>
+        </div>
+        <div class="instructions">
+          <h2 class="instrument-serif-regular-italic">Instructions</h2>
+          <ol>
+            <li>
+              Clean the ribs and pat them dry with a paper towel. Marinate the ribs with 1 tablespoon light soy sauce and 1 tablespoon shaoxing wine for 15 minutes.
+            </li>
+            <li>
+              Heat 1 tablespoon oil in a flat bottomed pan over medium heat and brown the ribs on all sides. Set aside on a plate.
+            </li>
+            <li>
+              Heat another tablespoon of oil in a clean wok over medium heat, and cook the ginger and scallions until fragrant, about 3 minutes. Take them out of the wok and set aside. Add another tablespoon of oil, and with the wok on low heat, add the sugar. Stir and let it melt. Add the ribs and coat them with the melted sugar. Turn off the heat.
+            </li>
+            <li>
+              Add the second tablespoon of shaoxing wine, dark soy sauce, vinegar, water, and the cooked ginger and scallion. Turn up the heat and bring everything to a boil. Then cover and simmer on low heat for 30 minutes, stirring occasionally to prevent sticking. After 30 minutes, if there's still too much liquid in the pot, take off the lid and turn up the heat, stirring continuously until the sauce has thickened and the ribs are coated and sticky.
+            </li>
+            <li>
+              It's best to serve these ribs at room temperature. Garnish with toasted sesame seeds if desired.
+            </li>
+          </ol>
+          <small>Recipe via: <a target="_blank" href="https://thewoksoflife.com/shanghai-sweet-sour-ribs/">https://thewoksoflife.com/shanghai-sweet-sour-ribs/</a></small>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Made with ❤️ in Pittsburgh | Angela Xuan</p>
+    </footer>
+  </body>
+</html>
