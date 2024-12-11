@@ -71,51 +71,89 @@ For the following aspects of your project, edit the corresponding table cell to 
 - *Usage*: Whether you used / did not use this tool for the aspect. Enter [Yes/No]
 - *Productivity*: Give a rating on whether this tool makes your productivity for X aspect [1-Much Reduced, 2-Reduced, 3-Slightly Reduced, 4-Not Reduced nor Improved, 5-Slightly Improved, 6-Improved, 7-Much Improved].
 
-| Tool Name | Ratings | design | plan | write code | debug | \_ (other?) |
+| Tool Name | Ratings | design | plan | write code | debug | generate copy |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| Tool1 | Usage | Yes/No | Yes/No | Yes/No | Yes/No | Yes/No |
-| Tool1 | Productivity | 1~7 | 1~7 | 1~7 | 1~7 | 1~7 |
-| Tool2| Usage | Yes/No | Yes/No | Yes/No | Yes/No | Yes/No |
-| Tool2 | Productivity | 1~7 | 1~7 | 1~7 | 1~7 | 1~7 |
+| Claude | Usage | No | No | Yes | Yes | Yes |
+| Claude | Productivity | 4 | 4 | 6 | 6 | 6 |
 
+Note: I had initially stated in FP2 that I would use Microsoft Copilot to generate images, but I ended up hand-drawing illustrations and choosing photos from my family albums.
 
 ### Usage Reflection
 
 > Impact on your design and plan 
-* It matched my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
-  1. Tool1: 
-  2. Tool2:
-* It did not match my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
-  1. Tool1: 
-  2. Tool2:
-* GenAI tool did/did not influence my final design and implementation plan because … For example, 
-  1. Tool1: 
-  2. Tool2:
+
+* It matched my expectations and plan in that I used Claude primarily as a technical assistant and learning tool. For example,
+    1. Claude helped me understand and implement GSAP animations effectively. It also generated concise dish descriptions that captured the essence of each recipe while maintaining consistency. Lastly, it helped me with audio CSS styling and with debugging errors.
+* It did not match my expectations and plan in [FP2](#generative-ai-use-plan) in that I didn't expect to have so many tasks that would be automated. For example, 
+  1. I used Claude more extensively for automating repetitive code tasks than initially planned, like generating HTML list elements and similar components across pages. Instead of using AI for full recipe instructions as planned, I kept my family's original instructions and only used AI for brief dish descriptions. 
+
+* Claude influenced my implementation plan because it sped it up. For example, 
+  1. Its ability to handle repetitive tasks efficiently allowed me to spend more time on visual design and personal content. Its help with repetitive coding tasks also helped standardize my site's structure.
 
 > Use patterns
-* I accepted the generations when …  For example, 
-  1. Tool1: this tool once suggested … and I adjusted my design according to the suggestion because … 
-  2. Tool2: 
-* I critiqued/evaluated the generated suggestions by … For example, 
-  1. Tool1: this tool once suggested … but I modified/rejected the suggestion because … 
-  2. Tool2: 
+
+* I accepted the generations when:
+    1. Claude suggested concise dish descriptions that effectively communicated the essence of each recipe. It generated efficient code for repetitive elements like list structures and animation patterns. I also made sure I fully understood all of the generated code before using it.
+
+* I critiqued/evaluated the generated suggestions by:
+    1. Testing all code suggestions thoroughly and modifying them to match my site's specific needs and ensuring generated descriptions maintained the personal, family-oriented tone while being clear and engaging.
 
 
 > Pros and cons of using GenAI tools
 * Pros
-  1. Tool1: 
-  2. Tool2:
+    1. Claude significantly reduced time spent on repetitive coding tasks.
+    2. Claude helped maintain consistency in descriptions and code structure across pages.
+    3. Claude provided helpful technical guidance for animations.
+
+
 * Cons
-  1. Tool1: 
-  2. Tool2:
+    1. Sometimes generated overly complex solutions for simple problems.
+    2. Required careful review to ensure generated content maintained the personal touch.
+    3. Initial suggestions sometimes needed substantial modification to match the site's aesthetic.
 
 
 ### Usage Log
 
-Document the usage logs (prompts and chat history links) for the GenAI tools you used. Some tools may not have an easy way to share usage logs, just try your best! Some instructions for different tools:
+Generating dish descriptions
+![Generating dish descriptions](img/dish-descriptions.png)
 
-1. [ChatGPT](https://help.openai.com/en/articles/7925741-chatgpt-shared-links-faq) / [Gemini](https://support.google.com/gemini/answer/13743730?hl=en&co=GENIE.Platform%3DDesktop): share the anonymous link to all of your chat histories relevant to this project
-2. [GitHub Copilot (VSCode)](https://code.visualstudio.com/docs/copilot/copilot-chat#:~:text=You%20can%20export%20all%20prompts%20and%20responses%20for%20a%20chat%20session%20in%20a%20JSON%20file%20with%20the%20Chat%3A%20Export%20Session...%20command%20(workbench.action.chat.export)%20in%20the%20Command%20Palette.): export chat histories relevant to this project.
+Help with styling audio
+![Help with styling audio](img/audio.png)
+
+Scroll animations
+![Scroll animations](img/scroll.png)
+
+Help with repetitive tasks
+![Help with repetitive tasks](img/repetitive.png)
+
+Example of debugging: Adding a space
+![Example of debugging: Adding a space](img/debugging.png)
+
+Example of debugging: Fixing aspect ratio problems
+![Example of debugging: Fixing aspect ratio problems](img/aspect-ratio.png)
+
+## Part 7: Appendix
+### WAVE Accessibility Checker Screenshots
+Home Page
+![Home Page](img/wave-home.png)
+
+About Page
+![About Page](img/wave-about.png)
+
+Egg Rolls Page
+![Egg Rolls Page](img/wave-egg-rolls.png)
+
+Pork Wontons Page
+![Pork Wontons Page](img/wave-pork-wontons.png)
+
+Egg Dumplings Page
+![Egg Dumplings Page](img/wave-egg-dumplings.png)
+
+Fish Balls Page
+![Fish Balls Page](img/wave-fish-balls.png)
+
+Sweet and Sour Pork Page
+![Sweet and Sour Pork Page](img/wave-sweet-sour-pork.png)
 
 ---
 
