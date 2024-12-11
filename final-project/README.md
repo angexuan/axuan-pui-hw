@@ -11,38 +11,52 @@ Feel free to refer to this [Markdown Cheat Sheet](https://www.markdownguide.org/
 
 ## Part 1: Website Description
 
-Describe your website (300 words).
+Eat Shanghai is a digital recipe book that preserves and celebrates my family's Shanghainese culinary heritage. I have quite a few projects on my personal design portfolio, but none of them showcase my own personal style. Therefore, unlike the rest of my portfolio pieces showcasing corporate design work, I deliberately wanted this project to take a more personal approach through hand-drawn illustrations that bring warmth and authenticity to each recipe that I'm sharing.
 
-* What is the purpose of your website?   
-* Who is the target audience?  
-* What information do you convey with your website?   
-* How is it interesting and engaging?
+There are two main purposes of this website: to create a lasting archive of my family recipes that can be passed down through generations, and to demonstrate my illustration abilities in a deeply meaningful context. While my portfolio features polished digital designs, Eat Shanghai shows more of my artistic voice through hand-drawn illustrations that capture the soul of Shanghainese home cooking. The target audience of Eat Shanghai is specifically my family members, making this an internal facing website that prioritizes personal connection. The target audience is not the general public, as there are personal images and stories of my family on the website.
+
+What makes Eat Shanghai engaging is its blend of functionality and emotional resonance. The hand-drawn elements create an intimate, sketchbook-like feel that stands in refreshing contrast to typical digital cookbooks. There are hover interactions for these hand-drawn elements, and scroll interactions on all of the pages to further engage the user. On each recipe page, users can toggle the number of servings they want to make, and the quantity of ingredients required will update appropriately. The project showcases both technical web design skills and artistic abilities while serving as a meaningful preservation of my family's cultural heritage.
 
 ## Part 2: User Interaction
 
-How a user would interact with your website? For each step, briefly but clearly state the interaction type & how we should reproduce it.
-
-1. Interaction type. Click on X on page Y / scroll on page X, etc.  
-2. 
-
+1. Scroll Animations
+    - On the homepage, scroll down to see recipe cards fade in and slide up
+    - On recipe pages, scroll to see ingredients and instructions sections animate in from the sides
+    - On the about page, scroll to see paragraphs fade in and slide up smoothly
+2. Recipe Thumbnail Hover Effects
+    - On the homepage, hover over any recipe image to see an alternate, colorful view of the dish
+    - This works for all five recipe thumbnails (egg rolls, pork wontons, egg dumplings, fish balls, sweet and sour pork)
+3. Ingredient Quantity Toggle
+    - On any recipe page, look for the 1x, 2x, 3x buttons above the ingredients list
+    - Click these buttons to automatically recalculate all ingredient quantities
+4. Recipe Audio Playback
+    - On recipe pages with available recordings, find the audio player section
+    - Press play to hear my mom share the recipe in her own words
+    - Some recipes show a "Coming soon" placeholder for future recordings
+5. Responsiveness
+    - Homepage: Recipe cards center-align in a single column when screen width is below 1350px
+    - Recipe pages: Side-by-side hero image and content layout for desktop screens, and stacked layout with image on top at mobile breakpoint (860px)
+    - Ingredient quantity toggle and scroll animations work consistently across both layouts
+    - All hover effects and scroll animations adjust to work with both layouts
 ## Part 3: External Tool
 
 Describe what important external tool you used (JavaScript library, Web API, animations, or other). Following the bulleted list format below, reply to each of the prompts.
 
-1. Name of tool1  
-   * Why did you choose to use it over other alternatives? (2 sentences max)  
-   * How you used it? (2 sentences max)  
-   * What does it add to your website? (2 sentences max)  
-2. Name of tool2
+1. jQuery
+    - I chose jQuery because it simplified DOM manipulation and event handling with cross-browser compatibility and shorter, cleaner syntax.
+    - I used jQuery to implement image hover effects and ingredient quantity toggle functionality with event handlers and DOM updates.
+    - jQuery adds smooth interactive features that enhance user experience like dynamic ingredient calculations and image swaps.
+2. GSAP (GreenSock Animation Platform)
+    - I chose GSAP because it offers high-performance animations with precise control and better browser support compared to CSS animations.
+    - I used GSAP to create scroll-triggered animations for page elements using the ScrollTrigger plugin.
+    - GSAP adds polished, professional animations that guide users through content and create a more engaging browsing experience.
 
 ## Part 4: Design Iteration
 
-Describe how you iterated on your prototypes, if at all, including any changes you made to your original design while you were implementing your website and the rationale for the changes. (4-8 sentences max)
-
+Based on feedback from multiple lab sessions, I made several key iterations to my design. I added dish labels to the homepage thumbnails and implemented a footer to improve navigation clarity. In the recipe pages, I enhanced visual consistency by incorporating hand-drawn illustrations, matching the homepage's design language. I also simplified my technical approach by using jQuery and GSAP for animations instead of more complex libraries. For user functionality, I added an ingredients quantity toggle feature and included audio recordings of my mom sharing recipes, making the experience more personal and interactive. Throughout development, I focused on maintaining the authentic, homemade feel of the site while improving usability and interaction design based on user feedback.
 ## Part 5: Implementation Challenge
 
-What challenges did you experience in implementing your website? (2-4 sentences max)
-
+The main implementation challenge was managing various animations and interactions across different pages while maintaining consistency. Specifically, I struggled with making GSAP animations work properly with jQuery, which required careful script loading order and proper initialization timing, and ensuring the animations enhanced rather than disrupted the user experience. Additionally, maintaining consistent hover effects and scroll animations across different layouts and screen sizes was also challenging.
 ## Part 6: Generative AI Use and Reflection
 
 Describe how you used Generative AI tools to create this final project (fill in the following information, write \~500 words in total).
